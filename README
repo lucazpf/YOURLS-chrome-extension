@@ -10,6 +10,6 @@ url: "http://YOURDOMAIN.COM/API-SCRIPT.php?url=" + tab.url,
 
 In the manifest.json file insert your site domain by editing this line of code
 
-   "permissions": [ "tabs", "http://YOURDOMAIN.COM/" ],
+"permissions": [ "tabs", "http://YOURDOMAIN.COM/" ],
    
    
