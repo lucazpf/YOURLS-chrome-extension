@@ -1,0 +1,22 @@
+{
+   "browser_action": {
+      "default_icon": {
+         "19": "images/icon19.png",
+         "38": "images/icon38.png"
+      },
+      "default_popup": "index.html",
+      "default_title": "YOURLS Chrome extension"
+   },
+   "description": "YOURLS Chrome extension to short URLs",
+   "icons": {
+      "128": "images/icon128.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCu+Mv9m9eGmsXqj+qgQF5k16/TtyUpxmaZvUvIgls23DCknzMCWinksDnaLH71M1bprWfbXts+UExDH2MHXV3E8eRVWBu5FuY6bnEZuTUZBJxQrI3ahUqLBaZAt4iL+VBOxq9d9a8n8c+wvY+9UZsiY34TOeG9BMLTqeFjFc3qXwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "16",
+   "name": "YOURLS Chrome extension",
+   "permissions": [ "tabs", "http://yourdomain.com" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.5.1"
+}
