@@ -1,3 +1,15 @@
 YOURLS Chrome Extension
 
 This is an extension for the famous internet browser Chrome by Google. You can easily short the URL you are visiting by pressing the YOURLS icon on your browser toolbar.
+
+Configuration
+You must modify script.js editing this line of code by changing your site domain and the name of the API script
+
+url: "http://YOURDOMAIN.COM/API-SCRIPT.php?url=" + tab.url,
+
+
+In the manifest.json file insert your site domain by editing this line of code
+
+   "permissions": [ "tabs", "http://YOURDOMAIN.COM/" ],
+   
+   
